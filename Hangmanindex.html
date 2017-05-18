@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--font reference -->
+  <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <!--bootstrap--> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/solar/bootstrap.min.css">
+</head>
+<body>
+  <main>
+   <header>
+    <div class="jumbotron" id="tron">
+      <h1>Save the person!<br><img class="image"><img src="assets/images/hangmanhelp.png" alt="hanghelp"></h1>
+      <p>You can do it.</p>
+    </div>
+  </div>
+</nav>
+</header>
+<section>
+  <div class="container" id="stats">
+   <div class="row">
+    <div class="col-md-6">
+      <!-- Location of the word and blands-->
+      <h1>Hangman Status</h1>
+      <h3>Type a letter to guess the Word:</h3>
+      <p id ="blanks">_ _ _ _ _ _ _ _</p>
+      <h3>Number of Guesses left:</h3>
+      <!-- called in document.queryselector -->
+      <p id="guesses"></p>
+    </div>
+    <div class="col-md-6">
+      <!--Hint Location -->
+      <h1>Game Hint:</h1>
+      <div id="hint"></div>
+      <div id="letterUsed"></div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
